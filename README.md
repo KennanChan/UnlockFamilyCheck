@@ -1,0 +1,2 @@
+# UnlockFamilyCheck
+用于解决在Revit中载入某些族时被族库大师拦截的问题
