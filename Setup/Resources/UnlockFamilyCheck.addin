@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>UnlockFamilyCheck.dll</Assembly>
+    <ClientId>202B0652-C61D-44FA-9EFC-3ED5B76E14C2</ClientId>
+    <FullClassName>UnlockFamilyCheck.Command</FullClassName>
+    <Text>解锁构件无法载入</Text>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <LanguageType>Unknown</LanguageType>
+    <VendorId>Kennan</VendorId>
+    <VendorDescription>Kennan.Chan</VendorDescription>
+  </AddIn>
+</RevitAddIns>
