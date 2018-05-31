@@ -16,6 +16,10 @@ namespace UnlockFamilyCheck
                 app.FamilyLoadingIntoDocument -=
                     HWFamilyLibMaster.EventHandler.FamilyMasterEventHandler
                         .ControlledApplication_FamilyLoadingIntoDocument;
+                app.DocumentSaving -=
+                    HWFamilyLibMaster.EventHandler.FamilyMasterEventHandler.ControlledApplication_DocumentSaving;
+                app.DocumentSavingAs -=
+                    HWFamilyLibMaster.EventHandler.FamilyMasterEventHandler.ControlledApplication_DocumentSavingAs;
             }
             catch (Exception e)
             {

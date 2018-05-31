@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnlockFamilyCheck", "UnlockFamilyCheck\UnlockFamilyCheck.csproj", "{366D0095-69C4-4A3A-93A9-E492AF0FF489}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setup", "Setup\Setup.csproj", "{1EB1ED1D-D8E8-45A0-9CA0-27EAA826CBE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{366D0095-69C4-4A3A-93A9-E492AF0FF489} = {366D0095-69C4-4A3A-93A9-E492AF0FF489}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

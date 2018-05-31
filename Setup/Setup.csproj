@@ -60,10 +60,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\UnlockFamilyCheck.addin" />
+    <Resource Include="Resources\UnlockFamilyCheck.addin" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\UnlockFamilyCheck.dll" />
+    <Resource Include="Resources\UnlockFamilyCheck.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

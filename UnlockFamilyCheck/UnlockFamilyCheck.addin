@@ -4,7 +4,7 @@
     <Assembly>UnlockFamilyCheck.dll</Assembly>
     <ClientId>202B0652-C61D-44FA-9EFC-3ED5B76E14C2</ClientId>
     <FullClassName>UnlockFamilyCheck.Command</FullClassName>
-    <Text>解锁构件无法载入</Text>
+    <Text>解锁构件无法载入和保存</Text>
     <VisibilityMode>AlwaysVisible</VisibilityMode>
     <LanguageType>Unknown</LanguageType>
     <VendorId>Kennan</VendorId>
